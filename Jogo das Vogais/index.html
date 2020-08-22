@@ -7,7 +7,54 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
     <div id="container">
+
+        <audio id="som" loop>
+            <source src="audios/som.ogg" type="audio/ogg">
+            <source src="audios/som.mp3" type="audio/mpeg">
+            Seu navegador não possui suporte ao elemento audio
+        </audio>
+        <audio id="A">
+            <source src="audios/A.ogg" type="audio/ogg">
+            <source src="audios/A.mp3" type="audio/mpeg">
+            Seu navegador não possui suporte ao elemento audio
+        </audio>
+        <audio id="E">
+            <source src="audios/E.ogg" type="audio/ogg">
+            <source src="audios/E.mp3" type="audio/mpeg">
+            Seu navegador não possui suporte ao elemento audio
+        </audio>
+        <audio id="I">
+            <source src="audios/I.ogg" type="audio/ogg">
+            <source src="audios/I.mp3" type="audio/mpeg">
+            Seu navegador não possui suporte ao elemento audio
+        </audio>
+        <audio id="O">
+            <source src="audios/O.ogg" type="audio/ogg">
+            <source src="audios/O.mp3" type="audio/mpeg">
+            Seu navegador não possui suporte ao elemento audio
+        </audio>
+        <audio id="U">
+            <source src="audios/U.ogg" type="audio/ogg">
+            <source src="audios/U.mp3" type="audio/mpeg">
+            Seu navegador não possui suporte ao elemento audio
+        </audio>
+        <audio id="erro">
+            <source src="audios/erro.ogg" type="audio/ogg">
+            <source src="audios/erro.mp3" type="audio/mpeg">
+            Seu navegador não possui suporte ao elemento audio
+        </audio>
+        <audio id="parabens">
+            <source src="audios/parabens.ogg" type="audio/ogg">
+            <source src="audios/parabens.mp3" type="audio/mpeg">
+            Seu navegador não possui suporte ao elemento audio
+        </audio>
+        <audio id="estudarmais">
+            <source src="audios/estudarmais.ogg" type="audio/ogg">
+            <source src="audios/estudarmais.mp3" type="audio/mpeg">
+            Seu navegador não possui suporte ao elemento audio
+        </audio>
         <div id="home">
             <div class="titulo-home">
                 <h2>Jogo das Vogais</h2>
@@ -20,16 +67,17 @@
             </div>
         </div>
         <div id="game">
-            <div class="botao-voltar"onclick="backToHome()">
-                <h2>Voltar</h2>
-            </div>
+            
             <div class="count">
                 <div id="hits">0</div>
+                <div class="botao-voltar"onclick="backToHome()">
+                    <h2>Voltar</h2>
+                </div>
                 <div id="errors">0</div>
             </div>
             
             <div class="vogal">
-                <span id="vogal">A</span>
+                <span id="vogal"></span>
             </div>
             <div class="letras">
                 <div onclick="mudarVogal(this.id);" class="letra" id="a">A</div>
@@ -45,7 +93,7 @@
                 <div class="botao-voltar"onclick="backToHome()">
                     <h2>Início</h2>
                 </div>
-                <div class="botao-jogarnovamente"onclick="startGame()">
+                <div class="botao-jogarnovamente" onclick="startGame()">
                     <h2>Jogar Novamente</h2>
                 </div>
             </div>

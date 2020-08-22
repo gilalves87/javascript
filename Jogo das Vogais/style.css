@@ -20,7 +20,7 @@
 #home {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     background-color: whitesmoke;
     width: 100vw;
@@ -111,13 +111,14 @@
     display: flex;
     justify-content: space-between;
     width: 80%;
-    
+    /* background-color: green; */
 }
 #hits {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: lightgreen;
+    margin-top: 20px;
     padding: 20px;
     border-radius: 10px;
     font-size: 25pt;
@@ -130,6 +131,7 @@
     justify-content: center;
     align-items: center;
     background-color: lightcoral;
+    margin-top: 20px;
     padding: 20px;
     border-radius: 10px;
     font-size: 25pt;
@@ -139,7 +141,7 @@
 
 .letras {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 80%;
     /* background-color: lightblue; */
@@ -147,19 +149,17 @@
     
 }
 
-#a {background-color: red; padding: 20px; color: white; border-radius: 10px; font-size: 22pt; cursor: pointer;}
-#e {background-color: green; padding: 20px; color: white; border-radius: 10px; font-size: 22pt; cursor: pointer;}
-#i {background-color: blue; padding: 20px; color: white; border-radius: 10px; font-size: 22pt; cursor: pointer;}
-#o {background-color: yellow; padding: 20px; color: white; border-radius: 10px; font-size: 22pt; cursor: pointer;}
-#u {background-color: brown; padding: 20px; color: white; border-radius: 10px; font-size: 22pt; cursor: pointer;}
+#a {color: red; font-size: 50pt; cursor: pointer;}
+#e {color: green; font-size: 50pt; cursor: pointer;}
+#i {color: blue; font-size: 50pt; cursor: pointer;}
+#o {color: yellow; font-size: 50pt; cursor: pointer;}
+#u {color: brown; font-size: 50pt; cursor: pointer;}
 
 .vogal {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 180pt;
-    color: red;
-    
 }
 
 #result {
@@ -170,7 +170,6 @@
     background-color: whitesmoke;
     width: 100vw;
     height: 100vh;
-    
 }
 
 #resultado-final {
